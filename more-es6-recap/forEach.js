@@ -12,3 +12,5 @@ const products = [
     {id:1004, name: 'Tablet', price: 23000},
     {id:1005, name: 'Laptop', price: 45000},
 ];
+
+products.forEach(item => console.log(item.name))
